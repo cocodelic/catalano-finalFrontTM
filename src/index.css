@@ -1,0 +1,289 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #A27B5C;
+
+}
+
+/* Inicio screen LOGIN */
+
+.container{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .main-section{
+    margin-bottom: 150px;
+    font-size: 40px;
+}
+
+.container .tituloLogin{
+    font-size: 50px;
+}
+
+.container .twelve{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .input{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.container .iniciarSesion{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.container .errorLogin{
+    color: red;
+    background-color: rgb(218, 195, 195);
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-weight: 800;
+}
+
+/* Fin screen LOGIN */
+
+/* Inicio screen INICIO */
+
+.containerInicio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerInicio .navbar{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.containerInicio .titulo{
+    font-size: 16px;
+}
+
+.containerInicio .botonNavbarArriba{
+    font-size: small;
+    cursor: pointer;
+    background-color: #DCD7C9;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.canal-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.canal-form .chat-form{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+textarea {
+    resize: none;
+    padding: 5px;
+    width: 70%;
+    height: 10vh;
+    font-size: 20px;
+    background-color: #DCD7C9;
+}
+
+.submitMensaje{
+    background-color: #3F4E4F;
+    color: white;
+    padding: 10px 15px;
+}
+
+.inicioMain{
+    display: flex;
+    width: 100vw;
+}
+
+.navIzquierda{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #96682b;
+    box-shadow: 0 20px 10px 2px rgba(0, 0, 0, 0.445);
+    border-radius: 0 0 20px 20px;
+
+    & button{
+        padding: 5px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
+
+.li-canal{
+    margin: 5px;
+    padding: 5px;
+    background-color: #c5a67d;
+    border-radius: 5px;
+    overflow-x: scroll;
+}
+
+.canal{
+    width: 100vw;
+    height: 70vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ayudin{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 
+    1px 1px 0 #000, 
+    -1px -1px 0 #000,  
+    1px -1px 0 #000, 
+    -1px 1px 0 #000;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.opciones{
+    width: 100%;
+}
+
+/* Fin screen INICIO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: rgba(0, 0, 0, 0.355);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.747);
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.crearCanal{
+    background-color: #DCD7C9;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+
+
+.chat{
+    padding: 10px;
+    height: 100%;
+    background-color: #DCD7C9;
+    overflow-y: scroll;
+    border-radius: 5px;
+}
+
+.message-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.message .text{
+    overflow-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 700px){
+    .canal{
+        width: 80vw;
+    }
+    .navIzquierda{
+        position: relative;
+        border-radius: 0;
+        box-shadow: 0 0 0 0;
+        height: 85vh;
+        width: 20vw;
+    }
+    .canal-form{
+        width: 80vw;
+        height: 85vh;
+    }
+    .containerInicio .mostrarCanales{
+        display: none;
+        color: red;
+    }
+    .crearCanal{
+        margin: 0px;
+        width: 100%;
+    }
+    .inputCrearCanal{
+        width: 100%;
+    }
+    .inicioMain{
+        flex-direction: row-reverse;
+    }
+    .ayudin{
+        margin-top: 0;
+    }
+    .containerInicio .botonNavbarArriba{
+        padding: 4px 18px;
+        font-size: 20px;
+    }
+    
+}

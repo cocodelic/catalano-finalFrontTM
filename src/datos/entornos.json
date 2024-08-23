@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "name": "Comercial",
+    "active": true,
+    "canales": [
+      {
+        "id": 1,
+        "name": "Ideas Creativas",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Admin",
+            "message": "¡Bienvenidos al canal de Ideas Creativas! Este es el lugar para compartir tus ideas innovadoras y creativas que podrían ser útiles para nuestro trabajo. ¡Estamos ansiosos por escuchar lo que tienen en mente!",
+            "created_at": "12/8/2024 21:27",
+            "active": true
+          },
+          {
+            "id": 2,
+            "user_name": "Natalia Vargas",
+            "message": "Hola! Se me ocurrió una idea para una campaña de marketing interactiva que podría atraer más clientes. ¿Alguien está interesado en colaborar para desarrollar esta idea?",
+            "created_at": "12/8/2024 21:27",
+            "active": true
+          },
+          {
+            "id": 3,
+            "user_name": "Sergio López",
+            "message": "Hola a todos, tengo una propuesta para una nueva forma de presentar nuestros informes de progreso. Creo que podría hacerlo más atractivo y fácil de entender. ¿Qué opinan?",
+            "created_at": "13/8/2024 09:15",
+            "active": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ventas",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Admin",
+            "message": "¡Saludos al equipo de ventas! Este canal es para todas las cuestiones relacionadas con ventas, desde nuevas estrategias hasta resultados de clientes. Compartan sus logros, desafíos y sugerencias para mejorar!",
+            "created_at": "12/8/2024 21:27",
+            "active": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Relax",
+    "active": true,
+    "canales": [
+      {
+        "id": 1,
+        "name": "After Hours",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Ana Rodriguez",
+            "message": "Hola! Este viernes tengo ganas de ir a nuestro bar a relajar un poco todo el esfuerzo de estas semanas, la venimos rompiendo! Avisen quien se suma!",
+            "created_at": "12/8/2024 18:45",
+            "active": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "General",
+        "active": true,
+        "mensajes": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Departamento de IT",
+    "active": true,
+    "canales": [
+      {
+        "id": 1,
+        "name": "Actualizaciones del Sistema",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Admin",
+            "message": "Mantenimiento programado para el 15/8/2024 de 01:00 a 03:00.",
+            "created_at": "10/8/2024 12:00",
+            "active": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Área técnica",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Lautaro Diaz",
+            "message": "Mi correo electrónico no funciona. ¿Puedes ayudar?",
+            "created_at": "12/8/2024 09:00",
+            "active": true
+          },
+          {
+            "id": 2,
+            "user_name": "Soporte",
+            "message": "Hola Lautaro, intenta reiniciar tu cliente de Outlook y avísanos si el problema persiste.",
+            "created_at": "12/8/2024 09:05",
+            "active": true
+          },
+          {
+            "id": 1,
+            "user_name": "Juan Maldonado",
+            "message": "Buenas, no estoy pudiendo acceder a la red de la empresa, no me puedo conectar a la VPN, me podrán dar una mano?",
+            "created_at": "12/8/2024 21:27",
+            "active": true
+          },
+          {
+            "id": 2,
+            "user_name": "Soporte",
+            "message": "Hola Juan, asegúrate de que tu cliente de VPN esté actualizado a la última versión. También puedes intentar borrar la caché de la aplicación o reinstalarla. Si sigues teniendo problemas, contáctanos para que podamos revisarlo más a fondo.",
+            "created_at": "13/8/2024 09:15",
+            "active": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Marketing",
+    "active": true,
+    "canales": [
+      {
+        "id": 1,
+        "name": "Campañas",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Gerente de Campañas",
+            "message": "La campaña de lanzamiento de nuevo producto comienza el 20/8/2024. Fijense que todos los recursos estén al día",
+            "created_at": "10/8/2024 10:30",
+            "active": true
+          },
+          {
+            "id": 2,
+            "user_name": "Diseñador",
+            "message": "Recursos de diseño ya subidos a la carpeta compartida.",
+            "created_at": "11/8/2024 14:20",
+            "active": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Redes Sociales",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Gerente de Redes Sociales",
+            "message": "Publicaciones programadas para esta semana. Revisar que todo este correcto.",
+            "created_at": "12/8/2024 11:00",
+            "active": true
+          },
+          {
+            "id": 2,
+            "user_name": "Director de Marketing",
+            "message": "Todo está bien. Procedemos con el cronograma.",
+            "created_at": "12/8/2024 12:00",
+            "active": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Recursos Humanos",
+    "active": true,
+    "canales": [
+      {
+        "id": 1,
+        "name": "Reclutamiento",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Encargada en Reclutamiento",
+            "message": "Reunión sobre nuevas estrategias de reclutamiento el 16/8/2024 a las 10:00.",
+            "created_at": "12/8/2024 08:00",
+            "active": true
+          },
+          {
+            "id": 2,
+            "user_name": "Responsable de RRHH",
+            "message": "¡Hola a todos! Asegúrense de revisar los perfiles antes de la reunión. ¡Gracias!",
+            "created_at": "12/8/2024 08:15",
+            "active": true
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Beneficios",
+        "active": true,
+        "mensajes": [
+          {
+            "id": 1,
+            "user_name": "Asistente de Beneficios",
+            "message": "Actualización sobre los cambios en los beneficios de salud el 15/8/2024.",
+            "created_at": "11/8/2024 15:00",
+            "active": true
+          }
+        ]
+      }
+    ]
+  }
+]
